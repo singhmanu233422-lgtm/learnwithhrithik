@@ -1,0 +1,35 @@
+LEARN WITH HRITHIK - REAL ADMIN SYSTEM
+
+1. Copy LearnWithHrithik to C:\xampp\htdocs\
+2. Start Apache and MySQL in XAMPP.
+3. Open http://localhost/LearnWithHrithik/install.php
+4. After setup, open Admin Panel.
+   Email: admin@learnwithhrithik.local
+   Password: admin123
+5. Change the password from Admin > Settings.
+
+WHAT THE ADMIN CAN DO
+- Upload Notes/PDF/DOC/DOCX/PPT/XLS/ZIP study files.
+- Upload applications such as APK, EXE, MSI, ZIP, RAR, etc.
+- Add courses.
+- Add tutorials and learning links.
+- Publish Latest Updates.
+- See/delete student accounts.
+- See/delete contact messages.
+- Delete uploaded files.
+- Change admin password.
+
+UPLOADING WHATSAPP
+The Application uploader accepts APK files. You can upload an APK only if you have the legal right/permission to distribute that file. The site does not automatically download WhatsApp from the internet.
+
+LARGE FILES
+XAMPP/PHP may limit uploads to 2 MB by default. If an APK/EXE is larger, open:
+C:\xampp\php\php.ini
+and increase:
+upload_max_filesize = 128M
+post_max_size = 128M
+Then restart Apache.
+For files larger than 128 MB, use a higher value such as 256M if your storage allows.
+
+IMPORTANT
+This is designed for local XAMPP use. Before putting the site on the public internet, use a strong admin password, HTTPS, stricter file scanning, and a production database/user instead of XAMPP root.
